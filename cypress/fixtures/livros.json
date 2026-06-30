@@ -1,0 +1,14 @@
+[
+{
+    "Livro": "1984",
+    "Categoria": "ficção"
+},
+{
+    "Livro": "Dom Quixote",
+    "Categoria": "Romance"
+},
+{
+    "Livro": "O Hobbit",
+    "Categoria": "Aventura"
+}
+]
