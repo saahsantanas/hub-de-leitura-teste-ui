@@ -2,7 +2,7 @@
 import user from "../fixtures/usuario.json"
 
 describe('Funcionalidade: Login', () => {
-    before(() => {
+    beforeEach(() => {
         cy.visit('login.html')
     });
 
@@ -21,8 +21,8 @@ describe('Funcionalidade: Login', () => {
         cy.login('admin@biblioteca.com', 'admin123')
     });
 
-it('Deve fazer login com sucesso - Usando importação da massa de dados', () => {
-    cy.login(user.email, user.senha)
-});
+    it('Deve fazer login com sucesso - Usando importação da massa de dados', () => {
+        cy.login(user.email, user.senha)
+    });
 
 });
